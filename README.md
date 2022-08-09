@@ -56,18 +56,17 @@ Our directory has the below structure :
 ├── README.md       
 
 ## Functionality of Application 
+The  following images depeict the functionality of the application - Event Reminder.
+1. On the start of the webserver we are to open the localhost at desired port to go on the landing page. The GET methods retrives this main page for us. [./assets/images/landingPage.jpg]
 
+2. The main page provides us a link to the noted taking page. On clicking start button, we are directed to the page where we can read/write/delete notes.[./assets/images/notesPage.jpg]
 
+3. The page provides us option to Note Title adn note details in the box and as soon as we enter the Notes title a save button will appear on the right top corner (next to '+' sign). Once the notes is entered, save sign needs to be prossed and app refreshed to see the notes in the notes list on the left side.[./assets/images/newNotes.jpg]
+ 
+4. The app also gives an option to delete any noted. For deletion we need to click delete buton next to the notes and referesh the app to see the particular record is not in note list.[./assets/images/deleteNotes.jpg]
+ 
+5. Every notes entered into the note list are saved by an unique id and retrived accordingly. the images shows the records with their particular Ids after deletion of notes with Id 4,5 & 6.[./assets/images/notesId.jpg]
 
-## Installation 
-we need to install npm package for the inquirer, jest, Filesystem using npm init , npm install
-
-## code of Functionality
-the walkthrough of the functionality of the code from initiating the application , building up the array of team profile, reviewing the HTML Webpage and then verifying the unit tests is avialable at the following link:(https://drive.google.com/file/d/1WVdl_jI9oLSMVedKpE3msolQLeJAfTOF/view)
-
-## Functionality of code images 
--To initiate our CLI application we need to run ' node index.js'
-(./images/node start.jpg)
 
 -The application will prompt us to enter the details of the employee as a manager followed by the choice of entering another employee or exiting the application.  
 (./images/manager details.jpg)
