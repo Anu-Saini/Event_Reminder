@@ -88,3 +88,7 @@ The  following images depeict the functionality of the application - Event Remin
 
 - To help secure the functionality of our code,we are also running some unit testing on the classes made.
 (./images/testrun.jpg)
+
+
+## Deployment of Appication
+We have used Heroku platform to deploy and manage our application. The link to the application is as below 
